@@ -10,7 +10,7 @@ package modelo;
  */
 public class Referee {
     private String name;
-    private int games;
+    private int games=0;
 
     public void showInfo(){
         System.out.println("Nombre: "+name);
