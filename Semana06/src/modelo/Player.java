@@ -31,8 +31,8 @@ public class Player {
     
     // metodo que deuvelve valor 
     public int play(){
-        int numeroPartidos;
-        numeroPartidos=100;
+        int numeroPartidos=0;
+        numeroPartidos=numeroPartidos+1;
         return numeroPartidos;
     }
     
