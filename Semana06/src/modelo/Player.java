@@ -9,7 +9,7 @@ package modelo;
  * @author kepb
  */
 public class Player {
-    private String nombre;
+    private String name;
     private int number;
     private int age;
     private double salary;
@@ -18,26 +18,36 @@ public class Player {
     
     // los metodos void no devuelven nada 
     public void showInfo(){
-    
+        System.out.println("-------------------------");
+        System.out.println("Datos Jugador");
+        System.out.println("-------------------------");
+        System.out.println("Nombre: "+name);
+        System.out.println("Dorsal: "+number);
+        System.out.println("Edad: "+age);
+        System.out.println("Salario: "+salary);
+        System.out.println("Club actual: "+nameClub);
+        System.out.println("-------------------------");
     }
     
     // metodo que deuvelve valor 
     public int play(){
-        return 0;
+        int numeroPartidos;
+        numeroPartidos=100;
+        return numeroPartidos;
     }
     
     /**
      * @return the nombre
      */
-    public String getNombre() {
-        return nombre;
+    public String getName() {
+        return name;
     }
 
     /**
      * @param nombre the nombre to set
      */
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setName(String nombre) {
+        this.name = nombre;
     }
 
     /**
