@@ -19,6 +19,17 @@ public class Ejecucion {
         Player jugador1=new Player();
         Player jugador2=new Player();
         
+    
+        
+        //jugador1.name="Carlos";
+        //jugador1.setName("Fernando Hierro");
+        
+        //System.out.println(jugador1.name);
+        //System.out.println(jugador1.getName());
+        
+        
+        
+        //jugador1.name="Leonel Messi";
         jugador1.setName("Leonel Messi");
         jugador2.setName("Cristiano Ronaldo");
         jugador1.setNumber(10);
@@ -26,7 +37,18 @@ public class Ejecucion {
         
         
         jugador1.showInfo();
-        jugador2.showInfo();
+        
+        int contador=jugador1.play();
+        System.out.println("Partidos Jugados:"+contador);
+        contador=jugador1.play();
+        System.out.println("Partidos Jugados:"+contador);
+        contador=jugador1.play();
+        System.out.println("Partidos Jugados:"+contador);
+        contador=jugador1.play();
+        System.out.println("Partidos Jugados:"+contador);
+        contador=jugador1.play();
+        System.out.println("Partidos Jugados:"+contador);
+        //jugador2.showInfo();
         
         
         
