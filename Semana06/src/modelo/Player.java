@@ -16,6 +16,24 @@ public class Player {
     private String nameClub;
 
     
+    //Constructor: Metodo especial de la clase
+    // se ejecuta automaticamente al momento de 
+    // crrear la clase 
+    
+    public Player(){
+        name="SIN Nombre";
+    }
+    
+    public Player(String name,int age){
+        this.name=name;
+        this.age=age;
+    }
+    
+    
+    
+    
+    
+    
     // los metodos void no devuelven nada 
     public void showInfo(){
         System.out.println("-------------------------");
